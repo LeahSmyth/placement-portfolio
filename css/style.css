@@ -1,0 +1,130 @@
+* {
+	padding:0em;
+	margin:0;
+	font-size:100%;
+	line-height:1em;}
+
+body { 
+    max-width:100%;
+    min-height:100%;
+    font-size:1em;
+    font-family: 'Arial', sans-serif;
+    margin:auto;
+    line-height:1em;
+    overflow-x:hidden;
+    color:black;
+    background:#fff;}
+
+p{  
+    padding-bottom:em;
+	padding-left:5em;
+	padding-right:5em;
+	padding-top:.5em;
+	line-height:1.5em;
+	font-size:1.1em;
+	color:#000;}
+
+a:link{
+    font-size:1em;
+    color:#fb0101;
+    text-decoration:none;}
+
+/*---Headings---*/
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight:600;
+    color:#000;
+    text-align: center;
+    font-size:4em;
+    padding-top:1em;
+    padding-bottom:.7em;
+			}
+
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight:200;
+    color:#fff;
+    font-size:2em;
+    vertical-align:middle;}
+
+.page-title{padding-top:2em;}
+.page-title1{padding-top:1em;}
+
+/*---Nav---*/
+
+.nav a{
+	padding:.1em 0;
+	text-align:left;
+	margin:10px;
+	color:#fff;
+	text-decoration:none;
+	font-size:1.2em;
+	font-weight:normal;}
+
+nav {
+    padding-top:1.5em;
+	padding-bottom:1.5em;}
+
+nav ul {text-align:left;}
+
+nav ul li {
+    display:inline;
+	margin:10px;
+	text-align:center;}
+
+nav{
+    position:fixed;
+	top:0;
+	left:0;
+	margin:0;
+	width:100%;
+	background:#fb0101;
+	z-index:2;}
+
+.nav a:hover{
+    text-decoration:none;
+    color:#000000;}
+
+/*---Images---*/
+
+.being-logo{
+    width:80%;
+    padding-top:20%;
+    padding-bottom:15%;
+    max-width:100%;
+	display:flex;
+	margin:0em auto;
+}
+
+img{
+    max-width:100%;}
+
+.portfolio-image-group{
+    width:40%;
+}
+
+/*---Footer---*/
+
+.foot{
+    background-color:#000000;
+    height:15px;
+    margin-top:3em;}
+
+footer{
+    font-size:1.1em;
+	background-color:#fb0101;
+	text-align:center;
+	margin:0;
+	width:100%;
+	background:#FFF;
+	text-decoration:none;}
+
+.leah-link{
+    background-color:#fb0101;
+    padding-bottom:1.1em;
+    padding-top:1.1em;}
+
+.leah-link a{color:#ffffff;}
+
+.leah-link a:hover{color:#000000;}
