@@ -4,35 +4,19 @@
 	font-size:100%;
 	line-height:1em;}
 
-body { 
-    max-width:100%;
+body {max-width:100%;
     min-height:100%;
-    font-size:1em;
-    font-family: 'Arial', sans-serif;
-    margin:auto;
-    line-height:1em;
-    overflow-x:hidden;
-    color:black;}
+    font-family: 'Arial', sans-serif;}
 
-.home{background: url(../images/Lines.png) no-repeat fixed;}
-
-/*---Headings---*/
-
-h2 {
-    font-family: 'Arial', sans-serif;
-    font-weight:600;
-    color:#58595b;
-    text-align: center;
-    font-size:4em;
-    padding-bottom:.7em;}
+.home{background: url(../images/Lines.svg) no-repeat fixed;}
 
 /*---Nav---*/
 
 .nav a{
-	margin:55px;
+	margin:60px;
 	color:#58595b;
 	text-decoration:none;
-	font-size:3em;
+	font-size:2.5em;
     font-weight:600;}
 
 nav ul {text-align:center;}
@@ -87,89 +71,13 @@ nav ul li {display:inline;}
   right: 0;
 }
 
-.back{padding:2em 0 0 2em; width:3%;}
-
 /*---Images---*/
 
 .being-logo{position:relative;
     max-width:60%;
     margin-left:20%;
-    margin-top:23%;
+    margin-top:15%;
     margin-bottom:5%;}
-
-.being-logo-small{position:relative;
-    max-width:16%;
-    margin-left:42%;
-    margin-top:-2%;
-    margin-bottom:3%;}
-
-.portfolio-image-group{
-    padding-left:10%;
-    padding-right:10%;
-}
-
-.portfolio-image{height:300px; width:480px;} 
-
-ul.img-list {
-  list-style-type:none;
-  margin:0;
-  padding:1em 0em 1em 0em;
-  text-align:center;
-}
-
-ul.img-list li {
-  display:inline-block;
-  margin:0 1.5em 1.5em 0;
-  position:relative;}
-
-span.text-content {
-font-size:3em;
-  background:#000;
-  color:white;
-  cursor:pointer;
-  display:table;
-  height:300px;
-  left:1em;
-  position:absolute;
-  top:0;
-  width:48px;
-  text-transform:uppercase;
-}
-
-span.text-content span {
-  display:table-cell;
-  text-align:center;
-  vertical-align:middle;
-}
-
-span.text-content {
-  background:#000;
-  color:white;
-  cursor:pointer;
-  display:table;
-  left:0;
-  position:absolute;
-  top:0;
-  opacity:0;
-    height:300px;
-    width:480px;}
-
-ul.img-list li:hover span.text-content {opacity:.8;}
-
-span.text-content {
-  background:#000;
-  color:white;
-  cursor:pointer;
-  display:table;
-  left:0;
-  position:absolute;
-  top:0;
-  opacity:0;
-  -webkit-transition:opacity 500ms;
-  -moz-transition:opacity 500ms;
-  -o-transition:opacity 500ms;
-  transition:opacity 500ms;
-}
 
 /*---Footer---*/
 
@@ -191,3 +99,38 @@ footer{position:fixed;
 .leah-link a{color:#ffffff; padding-right:2%;text-decoration:none;}
 
 .leah-link a:hover{color:#000000;}
+
+/*----MEDIA QUERIES-----*/
+
+/*---IPAD PRO---*/
+@media (max-width:1024px) {
+
+.nav a{margin:80px 180px 0 180px;  font-size:3.5em;}
+
+.being-logo{max-width:75%; margin-top:45%; margin-bottom:1%;}
+
+footer{font-size:1.5em; text-align:center;}
+}
+
+/*---TABLET---*/
+
+@media (max-width:979px) {
+
+.nav a{margin:80px 160px 0 160px;  font-size:3em;}
+
+.being-logo{max-width:70%; margin-top:40%; margin-bottom:1%;}
+
+footer{font-size:1em; text-align:center;}
+}
+	
+/*---SMARTPHONE---*/
+
+@media (max-width:414px) {
+    
+.nav a{margin:80px 160px 0 160px;  font-size:3em;}
+
+.being-logo{max-width:100%; margin-top:100%; margin-bottom:1%; margin-left:45%;}
+
+footer{font-size:1.5em;}
+
+}
